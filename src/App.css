@@ -1,9 +1,41 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-direction: row;
+
 
 }
 
 .BakeryItem {
+    padding: 50px;
+    color: red;
+    
   
+}
+
+img {
+    width: 200px;
+}
+#main {
+    display: flex;
+
+    flex-direction: row;
+}
+
+#left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+#items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#right{
+    flex: 1;
 }
